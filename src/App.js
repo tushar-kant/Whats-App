@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React from 'react'
+import DrawerAppBar from './container/DrawerAppBar'
+import Bodycontent from './container/Bodycontent'
+import LowFooter from './container/LowFooter';
+import Explore from './container/Explore';
+import LowerContainer from './container/LowerContainer';
+import Lastfoot from './container/Lastfoot';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <DrawerAppBar/>
+      <Bodycontent/>
+      <LowerContainer/>
+      <Explore/>
+      <LowFooter/>
+      <Lastfoot/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
