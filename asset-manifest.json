@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tushar-kant/Whats-App/static/css/main.900a63f8.css",
+    "main.js": "/tushar-kant/Whats-App/static/js/main.f3191de6.js",
+    "static/js/787.2b7c45ff.chunk.js": "/tushar-kant/Whats-App/static/js/787.2b7c45ff.chunk.js",
+    "index.html": "/tushar-kant/Whats-App/index.html",
+    "main.900a63f8.css.map": "/tushar-kant/Whats-App/static/css/main.900a63f8.css.map",
+    "main.f3191de6.js.map": "/tushar-kant/Whats-App/static/js/main.f3191de6.js.map",
+    "787.2b7c45ff.chunk.js.map": "/tushar-kant/Whats-App/static/js/787.2b7c45ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.900a63f8.css",
+    "static/js/main.f3191de6.js"
+  ]
+}
